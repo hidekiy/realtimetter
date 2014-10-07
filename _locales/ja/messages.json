@@ -1,0 +1,41 @@
+{
+	"appDesc": {
+		"message": "Twitterからツイートをリアルタイムに受信して表示するアプリです。"
+	},
+	"welcomeMessage": {
+		"message": "この度はインストールいただきまして誠にありがとうございます。アプリを利用するにはTwitter連携の設定が必要です。お手数ですが以下のボタンより設定を行っていただきますようよろしくお願いいたします。"
+	},
+	"authApp": {
+		"message": "Twitter連携を設定します"
+	},
+	"showDescription": {
+		"message": "自己紹介文を表示します"
+	},
+	"excludeRT": {
+		"message": "リツイートを除外します"
+	},
+	"excludeHashspam": {
+		"message": "HASHSPAM を除外します"
+	},
+	"defaultTrackMenu": {
+		"message": "#nhk\n#etv\n#ntv\n#tvasahi\n#tbs\n#tvtokyo\n#fujitv"
+	},
+	"clearAllSettings": {
+		"message": "全ての設定データをクリアします"
+	},
+	"clearAllSettingsConfirm": {
+		"message": "全ての設定データをクリアしてもよろしいですか?"
+	},
+	"followComplete": {
+		"message": "フォロー完了"
+	},
+	"retweetComplete": {
+		"message": "リツイート完了"
+	},
+	"favoriteComplete": {
+		"message": "お気に入り登録完了"
+	},
+	"tokenUpdateCompleted": {
+		"message": "Twitterアカウント (@$1) と連携しました！"
+	}
+}

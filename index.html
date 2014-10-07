@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Realtimetter</title>
+<link rel="stylesheet" href="css/button.css">
+<link rel="stylesheet" href="css/checkbox.css">
+<link rel="stylesheet" href="realtimetter.css">
+</head>
+<body style="display:none">
+<div id="menu">
+<div><p class="selectable">Realtimetter</p></div>
+<div id="trackMenu"></div>
+<form action="/" id="searchBox" class="selectable">
+<p><input type="text" id="searchInput" value="Search..."></p>
+</form>
+<div><p id="openTimeline" class="clickable selectable">Home Timeline</p></div>
+<div>
+<p id="openSettings" class="clickable selectable">Settings</p>
+<p id="openAbout" class="clickable selectable">About</p>
+</div>
+</div>
+
+<div id="content">
+<div id="result"></div>
+</div>
+
+<div id="welcome" style="display:none">
+<h2>Welcome</h2>
+<p id="welcomeMessage"></p>
+<p><input type="button" id="welcomeAuthApp" value="empty"></p>
+</div>
+
+<div id="settings" style="display:none">
+<h2>Settings</h2>
+<p><input type="button" id="authApp" value="a"></p>
+<p><label><input type="checkbox" id="showDescription"></label></p>
+<p><label><input type="checkbox" id="excludeRT"></label></p>
+<p><label><input type="checkbox" id="excludeHashspam"></label></p>
+<p><label>Menu<br><textarea id="trackMenuEditor" style="width:200px;height:100px"></textarea></label></p>
+<p><input type="button" id="clearAllSettings" value="a"></p>
+<p style="text-align:right"><input type="button" id="settingsDone" value="Done"></p>
+</div>
+
+<div id="about" style="display:none">
+<h2>About Realtimetter</h2>
+<p>
+Application version: <span id="version"></span><br>
+Available at <a href="https://chrome.google.com/webstore/detail/epeckgeilgaojhfffkepefefbmjaefom">Chrome Web Store</a>.
+</p>
+<p>This software is using:</p>
+<p style="margin:0 20px">
+jquery.min.js from <a href="http://jquery.com/">jQuery Project</a>.<br>
+button.css and checkbox.css from <a href="http://www.chromium.org/">Chromium Project</a>.<br>
+oauth.js by Netflix, Inc. and sha1.js by Paul Johnston via <a href="http://code.google.com/p/oauth/">oauth - Google Project Hosting</a>.</p>
+<p>Created by <a href="http://ptyapp.com/">ptyapp.com</a>.</p>
+<p style="text-align:right"><input type="button" id="aboutDone" value="Close"></p>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/oauth.js"></script>
+<script src="js/sha1.js"></script>
+<script src="realtimetter.js"></script>
+</body>
+</html>

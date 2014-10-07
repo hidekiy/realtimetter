@@ -1,0 +1,97 @@
+body, a { color: #4c4c4c }
+body { font: 15px/1.4 sans-serif }
+body { margin: 0 }
+h1, h2 { font-weight: normal }
+h1 {
+	font: 12px/1.4 sans-serif;
+	margin: 0;
+}
+
+.tweet p { margin: 0 0 0 58px }
+.tweet {
+	padding: 10px 10px 10px 9px;
+	margin: 0;
+	border-left: 1px solid transparent
+}
+.unread-tweet { border-left: 1px solid #888 }
+.reading-tweet { border-left: 1px solid #bbb }
+
+.tweet:nth-last-child(odd) { background: #eee }
+.tweet:nth-last-child(even) { background: #f6f6f6 }
+
+.tweet img { border-radius: 4px }
+.tweet a:link { text-decoration: none }
+.tweet a:hover { text-decoration: underline }
+
+.tweet-note {
+	margin: 0;
+	padding: 0;
+	font-size: 9px;
+}
+.tweet-text { color: #222; padding: 3px 0 }
+.tweet-profile { font-size: 11px }
+.tweet-info { font-size: 9px }
+
+#menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 125px;
+	font-size: 14px;
+}
+
+.clickable {
+	color: #4c4c4c;
+	cursor: pointer;
+}
+
+.clickable:hover {
+	color: #000;
+	text-decoration: none;
+	background: #fef;
+}
+
+#menu > div {
+	margin: 20px 0;
+}
+
+#content {
+	margin: 0 0 0 125px;
+}
+
+#settings, #welcome, #about {
+	position: absolute;
+	top: 35px;
+	left: 160px;
+	width: 600px;
+	margin: 0;
+	padding: 10px 40px;
+	background: white;
+	border-radius: 4px;
+	box-shadow: 0 0 80px rgba(0, 0, 0, 0.4);
+}
+
+#searchBox {
+	margin: 0;
+	padding: 0 0 0 10px;
+	text-align: left;
+}
+
+#searchInput {
+	width: 90px;
+}
+
+#searchInput.defaultState {
+	color: gray;
+}
+
+.selectable {
+	margin: 5px 0;
+	padding: 0 12px;
+	border: solid transparent;
+	border-width: 0 0 0 5px;
+}
+
+.selected {
+	border-color: #4c4c4c;
+}

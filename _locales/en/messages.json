@@ -1,0 +1,41 @@
+{
+	"appDesc": {
+		"message": "Realtimely loads tweets from Twitter. Follow #hashtags fastest ever."
+	},
+	"welcomeMessage": {
+		"message": "Thank you very much for installing this application. Next you need to associate your Twitter account with this. Push below button to proceed."
+	},
+	"authApp": {
+		"message": "Associate with your Twitter Account"
+	},
+	"showDescription": {
+		"message": "Show Profile's description"
+	},
+	"excludeRT": {
+		"message": "Exclude ReTweets"
+	},
+	"excludeHashspam": {
+		"message": "Exclude Hash-Spams"
+	},
+	"defaultTrackMenu": {
+		"message": "#android\n#facebook\n#google\n#iphone\n#news\n#twitter\n#youtube"
+	},
+	"clearAllSettings": {
+		"message": "Clear All Settings"
+	},
+	"clearAllSettingsConfirm": {
+		"message": "May I clear all settings?"
+	},
+	"followComplete": {
+		"message": "Following completed"
+	},
+	"retweetComplete": {
+		"message": "Retweeting completed"
+	},
+	"favoriteComplete": {
+		"message": "Favorite completed"
+	},
+	"tokenUpdateCompleted": {
+		"message": "Successfully associated with your Twitter Account (@$1)"
+	}
+}
